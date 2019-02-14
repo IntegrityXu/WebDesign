@@ -35,10 +35,11 @@
   <body data-spy = "scroll" data-target = ".navbar" data-offset = "50"  >
     <div class="mycontainer">
     <nav class = "navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-        <a class = "navbar-brand" href = "#">Staem</a>
+        <span class="badge badge-success"><a class = "navbar-brand" href = "#" style="margin-left:15px;">Staem</a></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="collapsibleBavbar">
                 <ul class="navbar-nav">
                   <li class="nav-item">
@@ -61,7 +62,11 @@
                 </li>
             </ul>
         </div>
-        
+        <form class="form-inline" style="margin-left:400px;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
     </nav>
     <div id="carousel-example" class="carousel slide carousel-fade" data-ride="carousel" style = "margin-top:50px">
             <!--Indicators-->
@@ -103,7 +108,10 @@
             <!--/.Controls-->
     </div>
     <div id="section1" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <h1>Best Sellers</h1>
+            <div style="background-image:linear-gradient(to left, #FFF, #333);height:80px;">
+            <h1 style="color:#FFF;line-height:80px; margin-left:15px;">Best Sellers<small class="text-muted"><div style="display:inline;color:#CCC;">&nbsp;&nbsp; Come to Join Us!</div></small></h1>
+        </div><br>
+
             <div class="row" style="padding-bottom: 20px;">
               <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
                   <div class="card" >
@@ -118,8 +126,14 @@
                         </p>
                     </div>
                     <br>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                  </div>
+                    <a href="#" class="btn btn-primary" data-toggle="tooltip" title="Some tooltip text!">See Profile</a>
+                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                      <div class="arrow"></div>
+                        <div class="tooltip-inner">
+                          Come to join us!
+                        </div>
+                      </div>
+                    </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
@@ -137,8 +151,14 @@
                             </p>
                         </div>
                         <br>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                  </div>
+                    <a href="#" class="btn btn-primary" data-toggle="tooltip" title="Some tooltip text!">See Profile</a>
+                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                      <div class="arrow"></div>
+                        <div class="tooltip-inner">
+                          Come to join us!
+                        </div>
+                      </div>
+                    </div>
                   </div>
               </div>
           
@@ -159,8 +179,14 @@
                             </p>
                         </div>
                         <br>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                  </div>
+                    <a href="#" class="btn btn-primary" data-toggle="tooltip" title="Some tooltip text!">See Profile</a>
+                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                      <div class="arrow"></div>
+                        <div class="tooltip-inner">
+                          Come to join us!
+                        </div>
+                      </div>
+                    </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6 col-12">
@@ -175,8 +201,15 @@
                             </p>
                         </div>
                         <br>
-                    <a href="#" class="btn btn-primary">See Profile</a>
-                  </div>
+                    <a href="#" class="btn btn-primary" data-toggle="tooltip" title="Some tooltip text!">See Profile</a>
+                    <div class="tooltip bs-tooltip-top" role="tooltip">
+                      <div class="arrow"></div>
+                        <div class="tooltip-inner">
+                          Come to join us!
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
               </div>
             </div>
