@@ -183,27 +183,107 @@
     </div>
     <br>
     <div class = "table-responsive" >
-        <table class="table">
+        <table class="table" >
             <thead>
+
+              <tr>
+                <th></th>
                 <th>head 1</th>
                 <th>head 2</th>
                 <th>head 3</th>
-                <th>head 3</th>
-                <th>head 3</th>
-                <th>head 3</th>
+                <th>head 4</th>
+                <th>head 5</th>
+                <th>head 6</th>
+              </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td width = "200px;"><img src="thesims4.jpg" alt="table image" width = "200px"></td>
+                    <td></td>
+                    <td width = "200px"><img src="thesims4.jpg" alt="Table image" width="200px" onmouseover="showPic1(this)"></td>
+                    <td>The Sims 4</td>
+                    <td>EA</td>
+                    <td>$49.99</td>
+                    <td colspan="2" rowspan="3" id = "1"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td width = "200px"><img src="monster.jpg" alt="Table image" width="200px" onmouseover="showPic2(this)"></td>
+                  <td>Monster Hunter</td>
+                  <td>company</td>
+                  <td>$49.99</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width = "200px"><img src="godofwar.jpg" alt="Table image" width="200px" onmouseover="showPic3(this)"></td>
+                    <td>God of War</td>
+                    <td>company</td>
+                    <td>$49.99</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width = "200px"><img src="residentevil2.jpg" alt="Table image" width="200px" onmouseover="showPic4(this)"></td>
+                    <td>Resident Evil 2</td>
+                    <td>company</td>
+                    <td>$49.99</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width = "200px"><img src="devilmaycry5.png" alt="Table image" width="200px" onmouseover="showPic5(this)"></td>
+                    <td>Devil May Cry 5</td>
+                    <td>company</td>
+                    <td>$49.99</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width = "200px"><img src="dota2.jpg" alt="Table image" width="200px" onmouseover="showPic6(this)"></td>
+                    <td>Dota2</td>
+                    <td>company</td>
+                    <td>$49.99</td>
                 </tr>
             </tbody>
-
         </table>
     </div>
     </div>
     <footer>
 			Copyright &copy; 2019 single dogs<br>
 			<a href="mailto:xu.tao@husky.neu.edu">contact us</a>
-		</footer>
+    </footer>
+    <script>
+      // var count = 0;
+     function showPic1(pic){
+        var r = document.getElementById("1");
+        // if(count > 0){
+        //   r.removeChild(r.lastChild);
+        //   count--;
+        // }
+        // var cell = document.createElement("td");
+        // cell.setAttribute("colspan","2");
+        // cell.setAttribute("rowspan","3");
+        r.innerHTML="<img src='test1.png' height='200px'><br><img src='test2.png' height='200px'>";
+        // r.appendChild(cell);
+        // count++;
+      }
+      function showPic2(pic){
+        var r = document.getElementById("1");
+        r.innerHTML="<img src='test.png' height='400px'>";
+      }
+      function showPic3(pic){
+        var r = document.getElementById("1");
+        r.innerHTML="<img src='test.png' height='400px'>";
+      }
+      function showPic4(pic){
+        var r = document.getElementById("1");
+        r.innerHTML="<img src='test.png' height='400px'>";
+      }
+      function showPic5(pic){
+        var r = document.getElementById("1");
+        r.innerHTML="<img src='test.png' height='400px'>";
+      }
+      function showPic6(pic){
+        var r = document.getElementById("1");
+        r.innerHTML="<img src='test.png' height='400px'>";
+      }
+
+    </script>
   </body>
 </html>
