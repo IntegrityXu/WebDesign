@@ -8,9 +8,8 @@
         <link rel="stylesheet" href = "style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <style>
-      
-  </style>
+        <script src="script.js"></script>
+    </head>
   <body data-spy = "scroll" data-target = ".navbar" data-offset = "50"  >
     <div class="mycontainer">
     <nav class = "navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
@@ -215,41 +214,44 @@
                     <td>The Sims 4</td>
                     <td>EA</td>
                     <td>$49.99</td>
-                    <td rowspan="3" id = "1"><img src="thesims4.png" height="200px"></td>
+                    <td rowspan="4" id = "1" width="200px">
+                      <p>Enjoy the power to create and control people in a virtual world where there are no rules.Express your creativity as you customize your Sims’ appearances and personalities, and build them the perfect homes. Develop your Sims’ relationships, pursue careers, and explore vibrant new worlds.</p>
+                      <img src="thesims4.png" height="200px" width="350px"></td>
+                
                 </tr>
                 <tr>
                   <td></td>
                   <td width = "200px"><img src="monster.jpg" alt="Table image" width="200px" onmouseover="showPic2(this)"></td>
                   <td>Monster Hunter</td>
-                  <td>company</td>
+                  <td>Capcom</td>
                   <td>$49.99</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td width = "200px"><img src="godofwar.jpg" alt="Table image" width="200px" onmouseover="showPic3(this)"></td>
                     <td>God of War</td>
-                    <td>company</td>
+                    <td>Santa Monica Studio</td>
                     <td>$49.99</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td width = "200px"><img src="residentevil2.jpg" alt="Table image" width="200px" onmouseover="showPic4(this)"></td>
                     <td>Resident Evil 2</td>
-                    <td>company</td>
+                    <td>Capcom</td>
                     <td>$49.99</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td width = "200px"><img src="devilmaycry5.png" alt="Table image" width="200px" onmouseover="showPic5(this)"></td>
                     <td>Devil May Cry 5</td>
-                    <td>company</td>
+                    <td>Capcom</td>
                     <td>$49.99</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td width = "200px"><img src="dota2.jpg" alt="Table image" width="200px" onmouseover="showPic6(this)"></td>
                     <td>Dota2</td>
-                    <td>company</td>
+                    <td>Valve Corporation</td>
                     <td>$49.99</td>
                 </tr>
             </tbody>
@@ -279,42 +281,5 @@
 			Copyright &copy; 2019 single dogs<br>
 			<a href="mailto:123@husky.neu.edu">contact us</a>
     </footer>
-    <script>
-      // var count = 0;
-     function showPic1(pic){
-        var r = document.getElementById("1");
-        // if(count > 0){
-        //   r.removeChild(r.lastChild);
-        //   count--;
-        // }
-        // var cell = document.createElement("td");
-        // cell.setAttribute("colspan","2");
-        // cell.setAttribute("rowspan","3");
-        r.innerHTML="<img src='test1.png' height='200px'><br><img src='test2.png' height='200px'>";
-        // r.appendChild(cell);
-        // count++;
-      }
-      function showPic2(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic3(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic4(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic5(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic6(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-
-    </script>
   </body>
 </html>
