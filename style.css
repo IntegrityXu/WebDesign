@@ -1,0 +1,7 @@
+.mycontainer {
+    margin-left: auto;	   
+    margin-right: auto;	
+    width : 90%;
+    background-color: rgb(51, 51, 51)  ;
+    box-shadow: 3px 3px 3px #312e2e2a;
+}
