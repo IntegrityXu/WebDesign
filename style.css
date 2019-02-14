@@ -73,3 +73,8 @@ footer p {
     background-color : rgb(231, 46, 56);
     border-color: rgb(231, 46, 56);
 }
+.carousel-item img{
+    width: auto;
+    height: 820px;
+    max-height: 820px;
+    overflow: hidden;}
