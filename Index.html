@@ -8,40 +8,11 @@
         <link rel="stylesheet" href = "style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <style>
-      .cardimg {
-        height: 250px;
-        width: 100%;
-      }
-      body {
-        background-color: #323235;
-      }
-    h1 {
-        color:whitesmoke;
-        margin-top: 60px;
-        margin-bottom: 0;
-        font-family: Arial, Helvetica, sans-serif;
-	      text-shadow: 1px 1px 1px #BBB;
-    }
-	footer p {
-    text-align: center;
-	color:#fff;
-    }
-    footer {
-        background-color:#000;
-	    padding:20px 0px;
-		text-align: center;
-		font-style: italic;
-        font-family: Georgia, "Times New Roman", serif;
-    }
-    footer a {
-        
-		color: #999;
-    }
-    footer a:hover{
-	    color:#fff;
-    }
-  </style>
+
+        <script src="script.js"></script>
+
+  
+  </head>
   <body data-spy = "scroll" data-target = ".navbar" data-offset = "50"  >
     <div class="mycontainer">
     <nav class = "navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
@@ -110,17 +81,17 @@
             <!--/.Controls-->
     </div>
     <div id="bestsell" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <div style="background-image:linear-gradient(to left, #333, #CCC);height:80px;">
-            <h1 style="color:#333;line-height:80px; margin-left:15px;">Best Sellers<small class="text-muted"><div style="display:inline;color:#666;">&nbsp;&nbsp; Come to Join Us!</div></small></h1>
-        </div><br>
+            <div class = "subtitle">
+            <h1>BEST SELLER</h1>
+        </div>
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row" style="padding-bottom: 20px; padding-left: 20px; padding-right:25px">
               <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                  <div class="card" >
+                  <div class="card" style = "background-color:#2c2b2b; color:white">
                     <img class="card-img-top cardimg" src="overcook.jpg" alt="Card image" >
                     <div class="card-body">
                     <h4 class="card-title">Overcooked</h4>
-                    <div style = "height: 150px; overflow: auto">
+                    <div style = "height: 150px; overflow: auto;" >
                         <p class="card-text">
                             Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom 
                             and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto 
@@ -139,7 +110,7 @@
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
-                  <div class="card">
+                  <div class="card" style = "background-color:#2c2b2b; color:white">
                     <img class="card-img-top cardimg" src="pubg.jpeg" alt="Card image" >
                     <div class="card-body">
                     <h4 class="card-title">PUBG</h4>
@@ -165,7 +136,7 @@
               </div>
           
               <div class="col-lg-3 col-md-4 col-sm-6 col-12 " >
-                  <div class="card">
+                  <div class="card" style = "background-color:#2c2b2b; color:white">
                     <img class="card-img-top cardimg" src="dontstarve.png" alt="Card image" style="width:100%">
                     <div class="card-body">
                     <h4 class="card-title" style = "height : 30px;overflow: hidden;">Don't Starve Together</h4>
@@ -192,7 +163,7 @@
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                  <div class="card">
+                  <div class="card" style = "background-color:#2c2b2b; color:white">
                     <img class="card-img-top cardimg" src="chinesep.jpeg" alt="Card image" style="width:100%">
                     <div class="card-body">
                     <h4 class="card-title">Chinese Parents</h4>
@@ -223,74 +194,77 @@
 
               <tr>
                 <th></th>
-                <th>head 1</th>
-                <th>head 2</th>
-                <th>head 3</th>
-                <th>head 4</th>
-                <th>head 5</th>
-                <th>head 6</th>
+                <th></th>
+                <th>Game Name</th>
+                <th>Company</th>
+                <th>Price</th>
+                <th>Detaile</th>
+                <!-- <th>head 6</th> -->
               </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr onmouseover="showPic1(this)">
                     <td></td>
-                    <td width = "200px"><img src="thesims4.jpg" alt="Table image" width="200px" onmouseover="showPic1(this)"></td>
+                    <td width = "200px"><img src="thesims4.jpg" alt="Table image" width="200px" ></td>
                     <td>The Sims 4</td>
                     <td>EA</td>
                     <td>$49.99</td>
-                    <td colspan="2" rowspan="3" id = "1"></td>
+                    <td rowspan="4" id = "1" width="200px">
+                      <p>Enjoy the power to create and control people in a virtual world where there are no rules.Express your creativity as you customize your Sims’ appearances and personalities, and build them the perfect homes. Develop your Sims’ relationships, pursue careers, and explore vibrant new worlds.</p>
+                      <img src="thesims4.png" height="200px" width="350px"></td>
+                
                 </tr>
-                <tr>
+                <tr onmouseover="showPic2(this)">
                   <td></td>
-                  <td width = "200px"><img src="monster.jpg" alt="Table image" width="200px" onmouseover="showPic2(this)"></td>
+                  <td width = "200px"><img src="monster.jpg" alt="Table image" width="200px" ></td>
                   <td>Monster Hunter</td>
-                  <td>company</td>
+                  <td>Capcom</td>
                   <td>$49.99</td>
                 </tr>
-                <tr>
+                <tr onmouseover="showPic3(this)">
                     <td></td>
-                    <td width = "200px"><img src="godofwar.jpg" alt="Table image" width="200px" onmouseover="showPic3(this)"></td>
+                    <td width = "200px"><img src="godofwar.jpg" alt="Table image" width="200px" ></td>
                     <td>God of War</td>
-                    <td>company</td>
+                    <td>Santa Monica Studio</td>
                     <td>$49.99</td>
                 </tr>
-                <tr>
+                <tr onmouseover="showPic4(this)">
                     <td></td>
-                    <td width = "200px"><img src="residentevil2.jpg" alt="Table image" width="200px" onmouseover="showPic4(this)"></td>
+                    <td width = "200px"><img src="residentevil2.jpg" alt="Table image" width="200px" ></td>
                     <td>Resident Evil 2</td>
-                    <td>company</td>
+                    <td>Capcom</td>
                     <td>$49.99</td>
                 </tr>
-                <tr>
+                <tr onmouseover="showPic5(this)">
                     <td></td>
-                    <td width = "200px"><img src="devilmaycry5.png" alt="Table image" width="200px" onmouseover="showPic5(this)"></td>
+                    <td width = "200px"><img src="devilmaycry5.png" alt="Table image" width="200px" ></td>
                     <td>Devil May Cry 5</td>
-                    <td>company</td>
+                    <td>Capcom</td>
                     <td>$49.99</td>
                 </tr>
-                <tr>
+                <tr onmouseover="showPic6(this)">
                     <td></td>
-                    <td width = "200px"><img src="dota2.jpg" alt="Table image" width="200px" onmouseover="showPic6(this)"></td>
+                    <td width = "200px"><img src="dota2.jpg" alt="Table image" width="200px" ></td>
                     <td>Dota2</td>
-                    <td>company</td>
+                    <td>Valve Corporation</td>
                     <td>$49.99</td>
                 </tr>
             </tbody>
         </table>
     </div>
     <div style="margin:0 auto;width:180px;">
-    <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item">
-          <a class="page-link" href="" aria-label="Previous">
+    <nav  >
+      <ul class="pagination" >
+        <li class="page-item"  >
+          <a class="page-link pagenav" href="" aria-label="Previous " >
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item"><a class="page-link" href="">1</a></li>
-        <li class="page-item"><a class="page-link" href="">2</a></li>
-        <li class="page-item"><a class="page-link" href="">3</a></li>
+        <li class="page-item"><a class="page-link pagenav" href="">1</a></li>
+        <li class="page-item"><a class="page-link pagenav" href="">2</a></li>
+        <li class="page-item"><a class="page-link pagenav" href="">3</a></li>
         <li class="page-item">
-          <a class="page-link" href="" aria-label="Next">
+          <a class="page-link pagenav" href="" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
           </a>
         </li>
@@ -300,6 +274,7 @@
     </div>
     
     <footer>
+
     <i><small><p>Copyright &copy; 2019 single dogs</p>
     <div class="footer">
       <a href="">Copyright Information</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -307,42 +282,6 @@
       <a href="mailto:webmaster@starbucks.com">contact us by Email</a>
     </div></small></i>
   </footer>
-    <script>
-      // var count = 0;
-     function showPic1(pic){
-        var r = document.getElementById("1");
-        // if(count > 0){
-        //   r.removeChild(r.lastChild);
-        //   count--;
-        // }
-        // var cell = document.createElement("td");
-        // cell.setAttribute("colspan","2");
-        // cell.setAttribute("rowspan","3");
-        r.innerHTML="<img src='test1.png' height='200px'><br><img src='test2.png' height='200px'>";
-        // r.appendChild(cell);
-        // count++;
-      }
-      function showPic2(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic3(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic4(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic5(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-      function showPic6(pic){
-        var r = document.getElementById("1");
-        r.innerHTML="<img src='test.png' height='400px'>";
-      }
-
-    </script>
+    
   </body>
 </html>
