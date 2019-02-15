@@ -1,101 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Staem</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href = "style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
-        <link href="logo.ico" rel="icon" type="image/x-icon">
-
+  <head>
+    <title>Staem</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link href="logo.ico" rel="icon" type="image/x-icon">
   </head>
   <body data-spy = "scroll" data-target = ".navbar" data-offset = "50"  >
     <div class="mycontainer">
-    <nav class = "navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
-
+      <nav class = "navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
         <span class="badge badge-secondary"><a class = "navbar-brand" href = "#" style="margin-left:15px; "><img src="logo1.jpg" height="30px" width="30px">&nbsp;Staem</a></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleBavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item" style="margin-left:30px;padding:0 15px;">
-                    <a class="nav-link" href="#carousel-example">Home</a>
-                  </li>
-                  <li class="nav-item" style="padding:0 15px;">
-                    <a class="nav-link" href="#bestsell">Best Seller</a>
-                  </li>
-                  <li class="nav-item" style="padding:0 15px;">
-                    <a class="nav-link" href="#newtrend">New and Trending</a>
-                  </li>
-                  
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item" style="margin-left:30px;padding:0 15px;">
+              <a class="nav-link" href="#carousel-example">Home</a>
+            </li>
+            <li class="nav-item" style="padding:0 15px;">
+              <a class="nav-link" href="#bestsell">Best Seller</a>
+            </li>
+            <li class="nav-item" style="padding:0 15px;">
+              <a class="nav-link" href="#gametable">New and Trending</a>
+            </li>       
+          </ul>
         </div>
-        <form class="form-inline" style="margin-right:10px;">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
 
-    </nav>
-    <div id="carousel-example" class="carousel slide carousel-fade" data-ride="carousel" style = "margin-top:50px">
+        <form class="form-inline" style="margin-right:10px;">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+
+      <div id="carousel-example" class="carousel slide carousel-fade" data-ride="carousel" style = "margin-top:50px">
             <!--Indicators-->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example" data-slide-to="1"></li>
-              <li data-target="#carousel-example" data-slide-to="2"></li>
-            </ol>
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example" data-slide-to="1"></li>
+          <li data-target="#carousel-example" data-slide-to="2"></li>
+        </ol>
             <!--/.Indicators-->
             <!--Slides-->
-            <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
               <!--First slide-->
-              <div class="carousel-item active" style="height:820px;">
-                <img class="d-block w-100" src="fifa.jpg" alt="First slide" >
-              </div>
+          <div class="carousel-item active" style="height:820px;">
+            <img class="d-block w-100" src="fifa.jpg" alt="First slide" >
+          </div>
               <!--/First slide-->
               <!--Second slide-->
-              <div class="carousel-item" style="height:820px;">
-                <img class="d-block w-100" src="Assassin's creed.jpg" alt="Second slide">
-              </div>
+          <div class="carousel-item" style="height:820px;">
+            <img class="d-block w-100" src="Assassin's creed.jpg" alt="Second slide">
+          </div>
               <!--/Second slide-->
               <!--Third slide-->
-              <div class="carousel-item" style="height:820px;">
-                <img class="d-block w-100" src="reddead.jpg" alt="Third slide">
-              </div>
+          <div class="carousel-item" style="height:820px;">
+            <img class="d-block w-100" src="reddead.jpg" alt="Third slide">
+          </div>
               <!--/Third slide-->
-            </div>
+        </div>
             <!--/.Slides-->
             <!--Controls-->
-            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
             <!--/.Controls-->
-    </div>
-    <div id="bestsell" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
-            <div class = "subtitle">
-            <h1>BEST SELLER</h1>
+      </div>
+
+      <div id="bestsell" class="container-fluid" style="padding-top:25px;">
+        <div class = "subtitle">
+          <h1>BEST SELLER</h1>
         </div>
 
-            <div class="row" style="padding-bottom: 20px; padding-left: 20px; padding-right:25px">
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
-                  <div class="card" style = "background-color:#2c2b2b; color:white">
-                    <img class="card-img-top cardimg" src="overcook.jpg" alt="Card image" >
-                    <div class="card-body">
-                    <h4 class="card-title">Overcooked</h4>
+        <div class="row" style="padding-bottom: 20px; padding-left: 20px; padding-right:25px">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+            <div class="card" style = "background-color:#2c2b2b; color:white">
+              <img class="card-img-top cardimg" src="overcook.jpg" alt="Card image" >
+                <div class="card-body">
+                  <h4 class="card-title">Overcooked</h4>
                     <div style = "height: 150px; overflow: auto;" >
-                        <p class="card-text">
+                      <p class="card-text">
                             Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom 
                             and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto 
                             your aprons… it’s time to save the world again!
-                        </p>
+                      </p>
                     </div>
                     <br>
                     <a href="#" class="btn btn-primary" data-toggle="tooltip" title="Come to join us!">See Profile</a>
@@ -109,8 +108,8 @@
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
-                  <div class="card" style = "background-color:#2c2b2b; color:white">
-                    <img class="card-img-top cardimg" src="pubg.jpeg" alt="Card image" >
+                <div class="card" style = "background-color:#2c2b2b; color:white">
+                  <img class="card-img-top cardimg" src="pubg.jpeg" alt="Card image" >
                     <div class="card-body">
                     <h4 class="card-title">PUBG</h4>
                     <div style = "height: 150px; overflow: auto">
@@ -187,10 +186,10 @@
             </div>
     </div>
     <br>
-    <div class = "subtitle" id="newtrend">
-        <h1>New and Trending</h1>
-    </div>
-    <div class = "table-responsive" id = "gametable">
+    <div class = "table-responsive" id = "gametable" style="padding-top:25px;">
+        <div class = "subtitle" id="newtrend">
+            <h1>New and Trending</h1>
+        </div>
         <table class="table" >
             <thead>
 
@@ -284,6 +283,5 @@
       <a href="mailto:webmaster@starbucks.com">contact us by Email</a>
     </div></small></i>
   </footer>
-    
   </body>
 </html>
