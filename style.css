@@ -80,7 +80,7 @@ footer p {
     overflow: hidden;
 }
 #carousel-example{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 @media screen and (max-width: 875px){
     #carousel-example{
