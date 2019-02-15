@@ -27,7 +27,7 @@ function showPic1(pic){
   }
   function showPic5(pic){
     var r = document.getElementById("1");
-    r.innerHTML='<p>he gameplay will feature the return of Dante and Nero as playable characters, along with a new character,[5] named "V".[6] The gameplay is similar to the other titles in the Devil May Cry series, focusing on fast-paced "stylish action". The player fights off hordes of demons with a variety of attacks and weapons and receives a style-rating in combat based on a number of factors, such as move variety, the length of a combo and dodging attacks. The music in the game will change based on the player"s performance in combat."</p><img src="devil1.jpg" height="200px" width="350px">';
+    r.innerHTML='<p>The gameplay will feature the return of Dante and Nero as playable characters, along with a new character,named "V".The gameplay is similar to the other titles in the Devil May Cry series, focusing on fast-paced "stylish action". The player fights off hordes of demons with a variety of attacks and weapons and receives a style-rating in combat based on a number of factors, such as move variety, the length of a combo and dodging attacks. The music in the game will change based on the player"s performance in combat."</p><img src="devil1.jpg" height="200px" width="350px">';
   }
   function showPic6(pic){
     var r = document.getElementById("1");
