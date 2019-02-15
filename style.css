@@ -25,7 +25,7 @@ h1{
     margin-top: 60px;
     margin-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
-      text-shadow: 1px 1px 1px #BBB;
+    /* text-shadow: 1px 1px 1px #BBB; */
 }
 footer a {
     color: #999;
@@ -58,8 +58,8 @@ footer p {
     
  }
  .subtitle h1 {
-     color : #666;
-    font-family: "Tranbuchet MS", Helvetica, sans-serif;
+     /* color : #666; */
+    /* font-family: "Tranbuchet MS", Helvetica, sans-serif; */
     margin-left: 20px;
  }
 .table tr:hover {
