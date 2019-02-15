@@ -82,21 +82,10 @@ footer p {
 #carousel-example{
     margin-top: 40px;
 }
-@media screen and (max-width: 875px){
-    #carousel-example{
-    margin-top: 60px;
-    }
-@media screen and (max-width: 705px){
-    #carousel-example{
-        margin-top: 100px;
-    }
-@media screen and (max-width: 510px){
-    #carousel-example{
-        margin-top: 140px;
-    }
-@media screen and (max-width: 223px){
-    #carousel-example{
-        margin-top: 180px;
+
+
+@media screen and (max-width: 1000px) {
+    #search{
+        display: none;
     }
 }
-
