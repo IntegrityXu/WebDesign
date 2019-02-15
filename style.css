@@ -75,6 +75,28 @@ footer p {
 }
 .carousel-item img{
     width: auto;
-    height: 820px;
+    /* height:820px; */
     max-height: 820px;
-    overflow: hidden;}
+    overflow: hidden;
+}
+#carousel-example{
+    margin-top: 20px;
+}
+@media screen and (max-width: 875px){
+    #carousel-example{
+    margin-top: 60px;
+    }
+@media screen and (max-width: 705px){
+    #carousel-example{
+        margin-top: 100px;
+    }
+@media screen and (max-width: 510px){
+    #carousel-example{
+        margin-top: 140px;
+    }
+@media screen and (max-width: 223px){
+    #carousel-example{
+        margin-top: 180px;
+    }
+}
+
